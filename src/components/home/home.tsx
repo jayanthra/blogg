@@ -4,7 +4,7 @@ import './home.scss'
 
 const Home = () => {
 
-  const [blogs, addBlog] = useState([
+  const [blogs, updateBlogs] = useState([
     {
       title: 'How I trained a dragon',
       author: 'Hiccup Horrendous',
@@ -28,11 +28,24 @@ const Home = () => {
       author: 'Arthur Morgan',
       id: 4,
       content: 'Lorem ipsum',
+    },
+    {
+      title: 'On the road to valentine',
+      author: 'Arthur Morgan',
+      id: 5,
+      content: 'Lorem ipsum',
     }
   ])
+
+  const handleDelete = (id : number) => {
+    let filterBlogs = blogs.filter(blog => blog.id !== id)
+    updateBlogs(filterBlogs)
+  }
+
   return (
     <div className="home">
-      <BlogList blogs={blogs} title="All list"/>
+      <BlogList blogs={blogs} title="All Blogs" handleDelete={handleDelete}/>
+      <BlogList blogs={blogs.filter(item => item.author === 'Arthur Morgan')} handleDelete={handleDelete} title="Arthur's Blogs"/>
     </div>
   );
 }
