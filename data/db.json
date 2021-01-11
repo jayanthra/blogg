@@ -1,0 +1,28 @@
+{
+  "blogs": [
+    {
+      "title": "How I trained a dragon",
+      "author": "Hiccup Horrendous",
+      "id": 1,
+      "content": "The Viking village of Berk, located on a remote island, is attacked frequently by dragons, which take livestock, damage property and endanger lives. Hiccup, the awkward fifteen-year-old son of the village chieftain, Stoick the Vast, is deemed too scrawny and weak to fight the dragons, so he instead creates mechanical devices under his apprenticeship with Gobber, the village blacksmith, though Hiccup's inventions often backfire. During one attack, Hiccup uses a bolas launcher to shoot down a Night Fury, a dangerous and rare dragon of which little is known, but no one believes him, so he searches for the fallen dragon on his own. He finds the dragon in the forest, tangled in his net, but cannot bring himself to kill him, and instead sets him free.Stoick assembles a fleet to find the dragons' nest, and enters Hiccup in a dragon-fighting class taught by Gobber with the other teenagers, Fishlegs, Snotlout, twins Ruffnut and Tuffnut, and Astrid, a tough Viking girl on whom Hiccup has a crush, to train while he is away. Hiccup returns to the forest and finds the Night Fury still there, unable to fly because Hiccup's bolas accidentally tore off half of his tail fin. Hiccup befriends the dragon by offering fish and giving him the name 'Toothless', after his retractable teeth. Feeling guilty for crippling Toothless, Hiccup designs a harness rig and a prosthetic fin that allows the dragon to fly, but only with Hiccup riding, controlling the prosthetic."
+    },
+    {
+      "title": "How to escape Jumanji",
+      "author": "Robin Williams",
+      "id": 2,
+      "content": "The animals, humans, the danger, and other characters that live in JUMANJI can't normally be killed and they can only be stopped by finishing the game, hence why the instructions advise players to not being unless they intend to finish by reaching the game's crystal ball center, calling out the name of JUMANJI"
+    },
+    {
+      "title": "Where is the hidden temple",
+      "author": "Indiana Jones",
+      "id": 3,
+      "content": "Legends of the Hidden Temple was produced by Stone Stanley Productions in association with Nickelodeon and was taped at Nickelodeon Studios at Universal Studios in Orlando, Florida."
+    },
+    {
+      "title": "How Micah Bell was the rat",
+      "author": "Arthur Morgan",
+      "id": 4,
+      "content": "For one, how much did Micah do for Milton to consider him a good boy ever since? He could've ratted on Lakay, obviously. But what else? If he gave away information about the gang members, why isn't Mary-Beth, Tilly, Pearson, Swanson, Sadie, and Josiah wanted in 1907? How come the Pinkerton's don't raid Beaver Hollow, even though Micah supposedly told them that that's the gang's next hideout? Why is Micah killing Pinkerton agents even though he's supposed to be undercover? Why is Micah even in Lakay even though he knows it's gonna get heated when the Pinkerton's arrive?"
+    }
+  ]
+}
