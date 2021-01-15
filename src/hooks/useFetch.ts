@@ -7,7 +7,8 @@ const useFetch = (url: string) => {
 
 
   useEffect(() => {
-    fetch(url).then(res => {
+    const abortController = new AbortController()
+    fetch(url, {signal : abortController.signal}).then(res => {
       if (!res.ok) {
         throw Error('Resourse not found')
       }
@@ -17,9 +18,12 @@ const useFetch = (url: string) => {
       setisPending(false)
       setErrorMessage('')
     }).catch(err => {
-      setErrorMessage(err.message)
-      setisPending(false)
+      if(err.name !== 'AbortError') {
+        setErrorMessage(err.message)
+        setisPending(false)
+      }
     })
+    return () => abortController.abort()
   }, [url])
 
   return { data, isPending, errorMessage }
